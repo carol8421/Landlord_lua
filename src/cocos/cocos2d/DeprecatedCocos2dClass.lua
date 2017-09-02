@@ -2,11 +2,6 @@
 
 DeprecatedClass = {} or DeprecatedClass
 
---tip
-local function deprecatedTip(old_name,new_name)
-    print("\n********** \n"..old_name.." was deprecated please use ".. new_name .. " instead.\n**********")
-end
-
 --CCProgressTo class will be Deprecated,begin
 function DeprecatedClass.CCProgressTo()
     deprecatedTip("CCProgressTo","cc.ProgressTo")
@@ -1749,7 +1744,6 @@ _G["cc.EGLView"] = DeprecatedClass.EGLView()
 --EGLView class will be Deprecated,begin
 function DeprecatedClass.EGLView()
     deprecatedTip("cc.EGLView","cc.GLView")
-    print(cc.GLView)
     return cc.GLView
 end
 _G["cc.EGLView"] = DeprecatedClass.EGLView()

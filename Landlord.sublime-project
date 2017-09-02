@@ -1,0 +1,28 @@
+{
+	"build_systems":
+	[
+		{
+			"cmd":
+			[
+				"run.bat"
+			],
+			"working_dir": "${project_path}",
+			"name": "run"
+		}
+	],
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				".*"
+			],
+			"folder_exclude_patterns":
+			[
+				".*"
+			],
+			"name": "Landlord",
+			"path": "src"
+		}
+	]
+}

@@ -630,3 +630,9 @@ function string.formatnumberthousands(num)
     end
     return formatted
 end
+
+--tip
+function deprecatedTip(old_name,new_name)
+    if type(DEBUG) ~= "number" or DEBUG < 3 then return end
+    print("\n********** \n"..old_name.." was deprecated please use ".. new_name .. " instead.\n**********")
+end

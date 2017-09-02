@@ -2,11 +2,6 @@ if nil == cc.Control then
     return
 end
 
---tip
-local function deprecatedTip(old_name,new_name)
-    print("\n********** \n"..old_name.." was deprecated please use ".. new_name .. " instead.\n**********")
-end
-
 --functions of CCControl will be deprecated end
 local CCControlDeprecated = { }
 function CCControlDeprecated.addHandleOfControlEvent(self,func,controlEvent)
